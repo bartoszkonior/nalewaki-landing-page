@@ -1,0 +1,334 @@
+@media (max-width: 84em) {
+  .about-img-box {
+    height: 45rem;
+  }
+
+  .modal-header {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 73em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  nav {
+    gap: 6.4rem;
+  }
+
+  .footer-img {
+    width: 50rem;
+  }
+
+  .bundle {
+    padding: 2.4rem;
+    max-width: 30rem;
+  }
+
+  .bundle-title {
+    font-size: 3.6rem;
+  }
+  .about-img-box {
+    height: 35rem;
+  }
+
+  .modal {
+    padding: 4rem;
+  }
+
+  .modal-header {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .cta-form {
+    max-width: 60rem;
+  }
+
+  .modal {
+    width: 90%;
+  }
+}
+
+@media (max-width: 53em) {
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  nav {
+    z-index: 999;
+    font-size: 3.6rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* transform: translateX(100%); */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .hero-text {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .section-pre .container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+
+  .profit-box,
+  .bundles-box {
+    gap: 1.2rem;
+  }
+
+  .profit {
+    max-width: 40rem;
+  }
+
+  .yellow-sep {
+    width: 80%;
+  }
+
+  .footer-img {
+    width: 100%;
+  }
+
+  .footer-heading {
+    font-size: 4.8rem;
+  }
+
+  .footer-box {
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+
+  .reg-img {
+    gap: 1.8rem;
+  }
+
+  .footer-a {
+    align-items: flex-start;
+  }
+
+  .anchor {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 41em) {
+  .pre-text {
+    font-size: 3rem;
+  }
+
+  .section-about {
+    margin-top: 2.4rem;
+  }
+
+  .section-hero {
+    display: block;
+    padding: 0 2.4rem;
+  }
+
+  .hero-text:first-child {
+    margin-top: 2.8rem;
+  }
+
+  .hero-text:nth-child(2) {
+    text-align: right !important;
+    margin-top: 3.6rem;
+  }
+
+  .profit-box,
+  .bundles-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.6rem;
+  }
+
+  .partner-name {
+    font-size: 2.8rem;
+  }
+
+  .partners-title {
+    font-size: 3.2rem;
+  }
+
+  .partner.active {
+    gap: 2.4rem;
+  }
+
+  .cta-heading,
+  .bundle-heading,
+  .profits-heading,
+  .about-title {
+    font-size: 5.4rem;
+  }
+
+  .profit,
+  .bundle {
+    max-width: 50rem;
+  }
+
+  .partners-box {
+    padding: 1.2rem 2.8rem;
+  }
+
+  .yellow-sep {
+    height: 3rem;
+  }
+
+  .cta-subtitle {
+    font-size: 2.8rem;
+  }
+
+  .partner {
+    width: 50%;
+  }
+
+  footer {
+    padding: 3.6rem;
+  }
+}
+
+@media (max-width: 34em) {
+  header {
+    padding: 2.4rem;
+  }
+
+  .pre-img {
+    height: 30rem;
+  }
+
+  .nav-img {
+    height: 8rem;
+  }
+
+  .company-name {
+    font-size: 2.8rem;
+  }
+
+  .about-img-box {
+    height: 30rem;
+  }
+
+  .cta-heading,
+  .bundle-heading,
+  .profits-heading,
+  .about-title,
+  .footer-heading {
+    font-size: 4rem;
+  }
+
+  .hero-text {
+    margin-top: 3.2rem;
+  }
+
+  .cta-subtitle {
+    font-size: 2rem;
+  }
+
+  .form-btn {
+    width: 100%;
+  }
+
+  .partner-img {
+    height: 5rem;
+  }
+
+  .partner-name {
+    font-size: 2.8rem;
+  }
+
+  .partners-title {
+    font-size: 3.6rem;
+  }
+
+  .partner.active {
+    gap: 1.4rem;
+  }
+
+  .partners-box {
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .partner {
+    width: auto;
+  }
+
+  .about-img-box {
+    border-radius: 36px;
+  }
+
+  .hero-btn {
+    gap: 0.6rem;
+    padding: 1.2rem 3.6rem;
+  }
+
+  .modal-header,
+  .modal-text {
+    margin-bottom: 2rem;
+  }
+
+  .modal-text {
+    font-size: 2.2rem;
+  }
+}

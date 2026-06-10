@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Automatyczne nalewaki do piwa na imprezy. Zwiększ sprzedaż i obniż koszty z nalewaki.pl! Skontaktuj się i poznaj naszą ofertę.">
+  <title>nalewaki.pl</title>
+
+  <link rel="icon" href="img/logo.png" />
+  <link rel="apple-touch-icon" href="img/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="queries.css">
+</head>
+
+<body>
+
+  <div class="hero-wrapper">
+    <video autoplay muted loop playsinline poster="img/hero-img.png" id="bg-video">
+      <source src="img/hero-vid.mp4" type="video/mp4">
+      Twoja przeglądarka nie obsługuje wideo.
+    </video>
+
+    <header class="header">
+      <div class="logo-container">
+        <img src="img/logo.png" class="nav-img" alt="Logo nalewaki.pl" />
+        <div class="company-name">nalewaki.pl</div>
+      </div>
+      <nav>
+        <a href="#o_nas" class="main-nav-link">O nas</a>
+        <a href="#co_zyskasz" class="main-nav-link">Co zyskasz?</a>
+        <a href="#oferta" class="btn-outline main-nav-link">Sprawdź ofertę</a>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <section class="section-hero">
+      <div class="hero-text">Maksimum piwa.</div>
+      <div class="hero-text">Minimum kosztów.</div>
+    </section>
+    <button class="hero-btn">Poznaj nas <ion-icon name="arrow-down-outline"></ion-icon></button>
+  </div>
+
+  <main>
+    <section class="section-pre">
+      <div class="container">
+        <img src="img/festival-gong.png" class="pre-img" alt="Festiwalowa scena z tłumem ludzi" />
+        <div class="pre-text" id="preText">
+          Na dużych imprezach liczy się każda minuta – zwłaszcza przy sprzedaży piwa. Długie
+          kolejki, przeciążona
+          obsługa i ręczne
+          nalewanie to nie tylko frustracja klientów, ale przede wszystkim straty dla organizatora: mniejsza sprzedaż,
+          więcej
+          wydatków na personel i utrudnienia w godzinach szczytu…
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about" id="o_nas">
+      <div class="container">
+        <h2 class="about-title">Od tego jesteśmy my.</h2>
+        <div class="about-box">
+          <div class="about-text">
+            <p>
+              <span class="text-mark">Automatyczne nalewaki</span> to nowoczesne rozwiązanie, które wynosi sprzedaż piwa
+              na zupełnie nowy poziom. W
+              zaledwie <span class="text-mark">10
+                sekund</span> potrafią nalać aż <span class="text-mark">sześć idealnych porcji piwa</span> - szybko,
+              precyzyjnie i bez strat. Dzięki
+              temu
+              znacząco
+              zwiększysz
+              wydajność sprzedaży przy jednoczesnym ograniczeniu kosztów operacyjnych.
+            </p>
+            <p>
+              Do obsługi jednej maszyny wystarczy tylko <span class="text-mark">dwóch pracowników</span>, co
+              pozwala zredukować wydatki na personel bez
+              kompromisów w
+              jakości obsługi.
+            </p>
+          </div>
+          <div class="about-img-box">
+            <img src="img/beerjet.png" class="about-img" alt="Automatyczny nalewak do piwa BeerJet" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section class="section-profits" id="co_zyskasz">
+      <div class="container">
+        <h2 class="profits-heading">Dzięki nam zyskujesz...</h2>
+        <div class="profit-box">
+          <div class="profit">
+            <img src="img/money-bag.png" class="profit-img" alt="Ikona worka z pieniędzmi" />
+            <h3 class="profit-title">Większą sprzedaż</h3>
+            <p class="profit-text">Automatyzacja procesu nalewania pozwala znacząco zwiększyć tempo obsługi, co
+              przekłada się na wyższy
+              przychód z każdej
+              imprezy.</p>
+          </div>
+          <div class="profit">
+            <img src="img/employee.png" class="profit-img" alt="Ikona pracownika" />
+            <h3 class="profit-title">Stabilny personel</h3>
+            <p class="profit-text">Mniej potrzebnych rąk do pracy to mniejsze rotacje i większa kontrola nad jakością
+              obsługi – wybierasz
+              najlepszych i
+              pracujesz z nimi dłużej.</p>
+          </div>
+          <div class="profit">
+            <img src="img/review.png" class="profit-img" alt="Ikona pozytywnej opinii" />
+            <h3 class="profit-title">Zaufanie klientów</h3>
+            <p class="profit-text">Szybka, sprawna i bezproblemowa obsługa to doświadczenie, które klienci zapamiętują i
+              chętnie do niego
+              wracają.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="separator"></div>
+
+    <section class="section-bundles" id="oferta">
+      <h2 class="bundle-heading">Wybierz pakiet dla siebie!</h2>
+      <div class="yellow-sep"></div>
+      <div class="container">
+        <div class="bundles-box">
+          <div class="bundle">
+            <h3 class="bundle-title">Basic</h3>
+            <p class="bundle-text">Wynajem maszyn wraz z instruktażem dla obsługi oraz zdalnym wsparciem technicznym
+              podczas wydarzenia. Po imprezie
+              zwracasz nam urządzenia, a my zajmujemy się ich kompleksowym czyszczeniem.</p>
+          </div>
+          <div class="bundle">
+            <h3 class="bundle-title">Premium</h3>
+            <p class="bundle-text">Obejmuje wszystkie elementy pakietu podstawowego z dodatkowym rozszerzeniem o
+              transport
+              maszyn w obie strony oraz
+              obecność naszego pracownika na miejscu wydarzenia, gotowego do bieżącego wsparcia.</p>
+          </div>
+          <div class="bundle">
+            <h3 class="bundle-title">Indywidualny</h3>
+            <p class="bundle-text">Dla stałych partnerów oraz organizatorów cyklicznych wydarzeń oferujemy elastyczne
+              warunki współpracy oraz indywidualną
+              wycenę – dopasowaną do skali i potrzeb Twojego biznesu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-partners lazy-section">
+      <div class="container">
+        <div class="partners-box">
+          <h3 class="partners-title">Zaufali nam...</h3>
+          <div class="partner">
+            <img src="img/Wisła_Kraków_logo.svg.png" class="partner-img" alt="Logo Wisła Kraków S.A." />
+            <p class="partner-name">Wisła Kraków S.A.</p>
+          </div>
+          <div class="partner">
+            <img src="img/dmd_wersja_nr_2.png" class="partner-img" alt="Logo DMD Events Group" />
+            <p class="partner-name">DMD Events Group</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cta lazy-section">
+      <div class="container">
+        <h2 class="cta-heading">Podnieś poziom swojej usługi.</h2>
+        <h3 class="cta-subtitle">Skontaktuj się z nami i wydawaj piwo bez straty czasu.</h3>
+        <form class="cta-form" id="contactForm" novalidate>
+          <label for="fullName" class="form-label">Nazwa nadawcy
+            <input type="text" placeholder="Anna Kowalska (Firma XYZ)" id="fullName" name="name" class="form-input"
+              maxlength="100" autocomplete="name" required />
+            <span class="error-message" id="fullNameError"></span>
+          </label>
+          <label for="email" class="form-label">Adres e-mail
+            <input type="email" placeholder="annakowalska@firma.xyz" id="email" name="email" class="form-input"
+              autocomplete="email" required />
+            <span class="error-message" id="emailError"></span>
+          </label>
+          <label for="phoneNumber" class="form-label">Numer kontaktowy
+            <input type="tel" id="phoneNumber" name="tel" class="form-input" placeholder="123 456 789"
+              autocomplete="tel" pattern="(\\+48[-\\s]?)?[0-9]{3}[-\\s]?[0-9]{3}[-\\s]?[0-9]{3}">
+            <span class="error-message" id="phoneNumberError"></span>
+          </label>
+          <label for="message" class="form-label">Treść wiadomości
+            <textarea id="message" name="message" required class="message" maxlength="500"></textarea>
+            <span class="error-message" id="messageError"></span>
+          </label>
+          <label class="checkbox-label" id="privacyLabel">
+            <input type="checkbox" id="privacyPolicy" name="privacy_policy" />
+            <span class="privacy-text">Akceptuję <a href="docs/Polityka_prywatności_nalewaki.pl.pdf" target="_blank"
+                class="privacy-link">politykę prywatności</a></span>
+          </label>
+          <button type="submit" class="form-btn" id="submitButton"><span>Poproś o ofertę</span></button>
+        </form>
+        <p class="form-addition">Wolisz kontakt bezpośredni? Napisz do nas na <a href="mailto:kontakt@nalewaki.pl"
+            class="mail">kontakt@nalewaki.pl</a>!
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-box">
+      <p class="footer-heading">ZRÓBMY TO RAZEM.</p>
+      <div class="reg-img">
+        <div class="footer-a">
+          <a href="docs/Regulamin_strony_internetowej_nalewaki.pdf" target="_blank" class="anchor">Regulamin strony</a>
+          <a href="docs/Polityka_prywatności_nalewaki.pl.pdf" target="_blank" class="anchor">Polityka prywatności</a>
+        </div>
+        <img src="img/logo projekty stopka.png" class="footer-img" alt="" />
+        <!-- Dekoracyjne logo w stopce, alt pusty zgodnie z zasadami dostępności -->
+      </div>
+    </div>
+    <div class="footer-box">
+      <div class="social-box">
+        <a href="https://www.facebook.com/nalewakipl" target="_blank" class="icon-box">
+          <img src="img/facebook.png" class="icon" alt="Ikona Facebook" />
+        </a>
+        <a href="https://www.instagram.com/nalewaki.pl" target="_blank" class="icon-box">
+          <img src="img/instagram.png" class="icon" alt="Ikona Instagram" />
+        </a>
+        <a href="https://www.tiktok.com/@nalewaki.pl" target="_blank" class="icon-box">
+          <img src="img/tik-tok.png" class="icon" alt="Ikona TikTok" />
+        </a>
+      </div>
+      <p class="copywright">© nalewaki.pl, <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">×</button>
+    <h2 class="modal-header">Dziękujemy za kontakt!</h2>
+    <p class="modal-text">Niebawem przenalizujemy treść Twojej wiadomości i odpowiemy na Twoje zapytanie. Jeżeli chcesz
+      skontaktować się z nami
+      bezpośrednio, zapraszamy do przesłania maila na adres <a href="mailto:kontakt@nalewaki.pl">kontakt@nalewaki.pl</a>
+      lub wiadomości
+      na naszym
+      Facebooku
+      lub Instagramie. Piwo z nami!</p>
+    <div class="social-box">
+      <a href="https://www.facebook.com/nalewakipl" target="_blank" class="icon-box">
+        <img src="img/facebook.png" class="icon" alt="Ikona Facebook" />
+      </a>
+      <a href="https://www.instagram.com/nalewaki.pl" target="_blank" class="icon-box">
+        <img src="img/instagram.png" class="icon" alt="Ikona Instagram" />
+      </a>
+      <a href="https://www.tiktok.com/@nalewaki.pl" target="_blank" class="icon-box">
+        <img src="img/tik-tok.png" class="icon" alt="Ikona TikTok" />
+      </a>
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <script src="script.js"></script>
+  <script src="form-validation.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
